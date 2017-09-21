@@ -1,6 +1,6 @@
 import datetime
 print("_ _ _ _ _ _ __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n")
-print("\t\tGUESS THE NUMBER APP")
+print("\t\t BIRTHDAY APP")
 print("_ _ _ _ _ _ __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n")
 print("Which year were you born [YYYY]?",end=' ')
 year=int(input())
