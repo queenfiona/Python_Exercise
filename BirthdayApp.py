@@ -4,14 +4,14 @@ print("\t\tBIRTHDAY APP")
 print("_ _ _ _ _ _ __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n")
 
 def InputBirthday():
-	print("Which year were you born [YYYY]?",end=' ')
+	print("What year were you born [YYYY]?",end=' ')
 	year=int(input())
-	print("Which month were you born [MM]?",end=' ')
+	print("What month were you born [MM]?",end=' ')
 	month=int(input())
-	print("Which day were you born [DD]?",end=' ')
+	print("What day were you born [DD]?",end=' ')
 	day=int(input())
 	MyBirthday=date(year,month,day).strftime("%m/%d/%Y")
-	print(str("It seems like you were born on ") + str(MyBirthday) )
+	print(str("It looks like you were born on ") + str(MyBirthday) )
 	return day,month
 
 def DaysToBirthday():
@@ -24,12 +24,12 @@ def DaysToBirthday():
 	elif MyBirthday<Today:
 		MyBirthday=MyBirthday.replace(year=Today.year+1)
 		DaysToBirthday=abs(MyBirthday-Today)
-		print(str("\t Your birthday is in ") + str(DaysToBirthday.days) + str(" days"))
-		print("We are looking forward to it!")
+		print(str("Looks like your birthday is in ") + str(DaysToBirthday.days) + str(" days."))
+		print("Hope you're looking forward to it!")
 	else:
 		DaysToBirthday=abs(MyBirthday-Today)
-		print(str("\t Your birthday is in ") + str(DaysToBirthday.days) + str(" days"))
-		print("We are looking forward to it!")
+		print(str("Looks like your birthday is in ") + str(DaysToBirthday.days) + str(" days."))
+		print("Hope you're looking forward to it!")
 
 
 DaysToBirthday()
