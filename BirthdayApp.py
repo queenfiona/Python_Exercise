@@ -1,6 +1,10 @@
 from datetime import date
 print("_ _ _ _ _ _ __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n")
+<<<<<<< HEAD
 print("\t\tBIRTHDAY APP")
+=======
+print("\t\t BIRTHDAY APP")
+>>>>>>> bed5297ea85f9834e2e5b5a29ad909b323e08495
 print("_ _ _ _ _ _ __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n")
 
 def InputBirthday():
